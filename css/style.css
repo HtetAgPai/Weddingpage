@@ -1,0 +1,508 @@
+/*global*/
+.font-ca{
+	font-family: 'Castoro', serif;
+}
+
+.font-size-35{
+	font-size: 35px;
+}
+
+.font-size-19{
+	font-size: 19px;
+}
+
+.font-size-17{
+	font-size: 17px;
+}
+
+.text-pink{
+	color: #fa86c4 !important;
+}
+
+.text-ma{
+	color: #e11584 !important;
+}
+.bg-pink{
+	background: #fc94af;
+}
+.bg-ma{
+	background: #e11584;
+}
+.bg-light-pink{
+	background: #ffffe6;
+}
+.bg-footer{
+	background: #f2b8c6 !important;
+}
+
+/*navbar*/
+.navbar{
+	background: #f2b8c6;
+}
+.current{
+	background-color: #fff;
+	border-radius: 8px;
+}
+.nav-link:focus{
+	background-color: #fff !important;
+	border-radius: 8px;
+}
+.nav-link:hover{
+	background: #fec5e5;
+	opacity: 0.5;
+	border-radius: 8px;
+}
+
+.nav-item1{
+	list-style-type: none;
+}
+body{
+	background: #ffffe6;
+}
+html{
+	scroll-behavior: smooth;
+}
+.header-home .overlay{
+	background: url(../images/header4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.header{
+	background: url(../images/header4.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	height: 100vh;
+}
+
+.description{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.overlay{
+	min-width: 100%;
+	min-height: 100%;
+	/*background: #000;
+	opacity: .3;*/
+	background-color: rgba(0,0,0,.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.description h1{
+	border-bottom: 3px solid #9e4244;
+	padding: 5px 0;
+}
+.description p{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	margin-top: 20px;
+}
+.description .btn-login{
+	border: 1px solid #e11584;
+	background: #fa86c4;
+	color: #fff;
+}
+.description .btn-sign {
+	border: 1px solid #e11584;
+	background: #fa86c4;
+	color: #fff;
+}
+.description .btn-regis{
+	color: #fff;
+}
+.description button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #e11584;
+}
+
+.header .time{
+	font-family: 'Kanit', sans-serif;
+	font-size: 16px;
+}
+/*services*/
+.services .service-title{
+	font-family: 'Kanit', sans-serif;
+}
+
+.services .btn{
+	background: #fa86c4;
+	color: #fff;
+}
+
+.services button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #e11584;
+}
+
+.services .img:hover{
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*form*/
+#about .form h4{
+	color: #fff;
+}
+#about .form{
+	background: #fa86c4;
+	border-radius: 7px;
+}
+
+#about .form label{
+	color: #fff;
+}
+
+#about .form button{
+	background: #e11584;
+	color: #fff;
+}
+#about .form button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+#about .form .form-control{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+}
+
+/*about*/
+.about>img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.form-about .about p{
+	text-align: center;
+}
+#about #name:focus,#email:focus,#phone:focus,#time:focus{
+	/*border:1px solid red !important;*/
+	box-shadow: 1px 1px 6px red !important;
+}
+
+/*card*/
+#card-wrap .card{
+	background: #fa86c4;
+	border-radius: 8px;
+	cursor: pointer;
+}
+#card-wrap .card{
+	box-shadow: 1px 2px 5px #999;
+	transition: all 200ms;
+}
+#card-wrap .card:hover{
+	box-shadow: 2px 3px 15px #999;
+	transform: translateY(-1px);
+}
+
+/*customers' survey*/
+#customers-wrap{
+	background: url(../images/header0.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#customers-wrap .card{
+	background: #fa86c4 !important;
+}
+
+#customers-wrap .input-group{
+	display: flex;
+  	width: 100%;
+  	margin-bottom: 15px;
+}
+#customers-wrap .icon{
+	padding: 10px;
+  	background: #e11584;
+  	color: white;
+  	min-width: 50px;
+  	text-align: center;
+}
+#customers-wrap button{
+	background: #e11584 !important;
+}
+
+#customers-wrap .card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+#customers-wrap .form-control{
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #e11584;
+	border-radius: 3px;
+}
+
+/*contact us*/
+#contact-wrap .form-control{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #e11584;
+	border-radius: 7px;
+}
+
+#contact-wrap button{
+	background: #e11584;
+	color: #fff;
+}
+#contact-wrap button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #e11584;
+}
+
+/*footer*/
+footer{
+	background: #fc94af;
+}
+
+/*hotel1 start*/
+#hotel1 img{
+	border: 1px solid #e11584;
+}
+#hotel1 .room{
+	background: #e11584;
+	color: #fff;
+	border: none;
+}
+#hotel1 .card{
+	border: 1px solid #e11584;
+}
+#hotel1 .img-wrap{
+	overflow: hidden;
+}
+#hotel1 img:hover{
+	transform: scale(1.2);
+	transition: transform 1.5s ease;
+}
+#hotel1 button{
+	background: #e11584;
+	color: #fff;
+}
+#hotel1 button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+
+/*wed-dressing*/
+#wed-dress .card{
+	border-color: #e11584;
+}
+#wed-dress button{
+	background: #e11584;
+	color: #fff;
+	border-radius: 0;
+}
+#wed-dress .icon{
+	cursor: pointer;
+}
+/*promotion*/
+#promotion button{
+	background: #e11584;
+	color: #fff;
+}
+#promotion button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+/*honeymoon*/
+#honeymoon .card-item{
+	position: relative;
+	width: 100%;
+}
+#honeymoon .img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#honeymoon .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fa86c4;
+}
+#honeymoon .card-item:hover .overlay {
+  opacity: 1;
+}
+
+#honeymoon .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#honeymoon-country .card-item{
+	position: relative;
+	width: 100%;
+}
+#honeymoon-country .img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#honeymoon-country .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fa86c4;
+}
+#honeymoon-country .card-item:hover .overlay {
+  opacity: 1;
+}
+
+#honeymoon-country .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#honeymoon-country button{
+	background: #e11584;
+	color: #fff;
+}
+#honeymoon-country button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+
+#heart2{
+	display: none;
+}
+
+/*wed-dress*/
+#order .btn{
+	font-size: 17px;
+	color: #fff !important; 
+	padding: 12px 19px;
+	background: #e11584 !important;
+	text-transform: uppercase;
+}
+#order a .btn{
+	text-decoration: none;
+
+}
+
+/*pre-photo*/
+#indoor .card{
+	box-shadow: 1px 3px 5px #999;
+}
+#indoor button{
+	background: #e11584;
+	color: #fff;
+}
+#indoor button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+#outdoor .card{
+	box-shadow: 1px 3px 5px #999;
+}
+#outdoor i{
+	cursor: pointer;
+}
+#outdoor button{
+	background: #e11584;
+	color: #fff;
+}
+#outdoor button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+
+/*food and Venue*/
+#food img{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+}
+#food button{
+	background: #e11584;
+	color: #fff;
+}
+#food button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+#food img{
+	box-shadow: 1px 3px 5px #999;
+}
+#venue button{
+	background: #e11584;
+	color: #fff;
+}
+#venue button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+#venue img{
+	box-shadow: 1px 3px 5px #999;
+}
+
+/*dinner start*/
+#restaurant img{
+	border-radius: 10px;
+}
+#restaurant button{
+	background: #e11584;
+	color: #fff;
+}
+#restaurant button:hover{
+	border: 1px solid #7c1423;
+	background: #fff;
+	color: #fa86c4;
+}
+#restaurant img{
+	box-shadow: 2px 4px 6px #999;
+}

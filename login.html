@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>2Rings</title>
+	<link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="library/fontawesome/fontawesome-all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shourtcut icon" href="images/logo.png">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		#login .row{
+			background: #fa86c4;
+			border-radius: 30px;
+			box-shadow: 2px 4px 8px grey;
+		}
+		#login img{
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+		}
+		#login input{
+			box-shadow: 1px 1px 6px red !important;
+		}
+		#login button{
+			border: none;
+			outline: none;
+			height: 50px;
+			width: 100%;
+			background-color: #e11584;
+			color: white;
+			border-radius: 4px;
+			font-weight: bold;
+		}
+		#login button:hover{
+			background: white;
+			border: 1px solid;
+			color: #fa86c4;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- login starts -->
+		<scetion id="login" class="my-4 mx-5">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-lg-5">
+						<img src="images/header2.jpg" alt="" class="img-fluid">
+					</div>
+
+					<div class="col-lg-7 px-5 pt-5">
+						<h1 class="font-ca text-ma font-weight-bold py-3">Logo</h1>
+						<h4 class="font-ca text-ma">Sign into your account</h4>
+						
+							<div class="form-row">
+								<div class="col-lg-7">
+									<input type="email" class="form-control text-ma my-3 p-4 font-ca" placeholder="Email-Address">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-lg-7">
+									<input type="password" class="form-control text-ma my-3 p-4 font-ca" placeholder="Password">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-lg-7">
+									<a href="index.html">
+									<button class="btn btn-outline-danger mb-2 font-ca">Login</button>
+									</a>
+								</div>
+							</div>
+						
+						<a href="#" class="font-ca">Forgot Password?</a>
+						<p class="text font-ca">Don't have an account? <a href="#">Creat Account</a></p>
+					</div>
+				</div>
+			</div>
+		</scetion>
+
+
+	<script src="library/bootstrap/jquery-3.4.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
