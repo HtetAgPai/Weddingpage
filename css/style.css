@@ -1,6 +1,7 @@
 /*global*/
+./*global*/
 .font-ca{
-	font-family: 'Castoro', serif;
+	font-family: 'Frank Ruhl Libre', serif;
 }
 
 .font-size-35{
@@ -37,7 +38,8 @@
 
 /*navbar*/
 .navbar{
-	background: #f2b8c6;
+	background: #f7dee8 !important;
+	box-shadow: 0px 2px 4px #e11584;
 }
 .current{
 	background-color: #fff;
@@ -57,7 +59,7 @@
 	list-style-type: none;
 }
 body{
-	background: #ffffe6;
+	background: #f7dee8;
 }
 html{
 	scroll-behavior: smooth;
@@ -198,7 +200,7 @@ html{
 /*card*/
 #card-wrap .card{
 	background: #fa86c4;
-	border-radius: 8px;
+	border-radius: 0px;
 	cursor: pointer;
 }
 #card-wrap .card{
